@@ -12,196 +12,194 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="bg-gray-900 text-white">
+    <!-- HEADER AND NAVIGATION -->
+    <header>
+        <nav class="bg-gray-900 text-white" aria-label="Main navigation">
 
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-            <a href="../index.html" class="text-2xl font-bold">
-                Kalian
-            </a>
+                <a href="../index.html" class="text-2xl font-bold">
+                    Kalian
+                </a>
 
-            <div class="flex gap-6">
-                <a href="../index.html" class="hover:text-blue-400">Home</a>
-                <a href="about.html" class="hover:text-blue-400">About</a>
-                <a href="contact.html" class="hover:text-blue-400">Contact</a>
-                <a href="sign-in.html" class="hover:text-blue-400">Sign In</a>
-                <a href="sign-up.html" class="hover:text-blue-400">Sign Up</a>
-            </div>
-
-        </div>
-
-    </nav>
-
-
-    <!-- PAGE HEADER -->
-    <section class="bg-gray-100 py-16">
-
-        <div class="max-w-7xl mx-auto px-6 text-center">
-
-            <p class="text-blue-600 font-semibold">
-                ABOUT KALIAN
-            </p>
-
-            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mt-3">
-                Who We Are
-            </h1>
-
-            <p class="text-gray-600 max-w-2xl mx-auto mt-5">
-                Learn more about Kalian, our approach, and what we aim to create.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- ABOUT CONTENT -->
-    <section class="py-20 bg-white">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-
-                <div>
-
-                    <h2 class="text-3xl font-bold text-gray-900">
-                        Simple ideas. Better experiences.
-                    </h2>
-
-                    <p class="text-gray-600 mt-6 leading-relaxed">
-                        Kalian focuses on creating simple, modern and reliable
-                        experiences. Our goal is to combine useful technology
-                        with clear and thoughtful design.
-                    </p>
-
-                    <p class="text-gray-600 mt-4 leading-relaxed">
-                        We believe that good digital experiences should be
-                        easy to understand, accessible and enjoyable to use.
-                    </p>
-
-                </div>
-
-
-                <div class="bg-gray-100 rounded-xl p-8">
-
-                    <h3 class="text-xl font-semibold text-gray-900">
-                        Our Mission
-                    </h3>
-
-                    <p class="text-gray-600 mt-4">
-                        To create meaningful digital experiences through
-                        simplicity, technology and thoughtful design.
-                    </p>
-
+                <div class="flex gap-6">
+                    <a href="../index.html" class="hover:text-blue-400">Home</a>
+                    <a href="about.html" class="hover:text-blue-400" aria-current="page">About</a>
+                    <a href="contact.html" class="hover:text-blue-400">Contact</a>
+                    <a href="sign-in.html" class="hover:text-blue-400">Sign In</a>
+                    <a href="sign-up.html" class="hover:text-blue-400">Sign Up</a>
                 </div>
 
             </div>
 
-        </div>
+        </nav>
+    </header>
 
-    </section>
+    <!-- MAIN CONTENT -->
+    <main>
 
+        <!-- PAGE HEADER -->
+        <section class="bg-gray-100 py-16" aria-labelledby="page-title">
 
-    <!-- VALUES -->
-    <section class="py-20 bg-gray-100">
+            <div class="max-w-7xl mx-auto px-6 text-center">
 
-        <div class="max-w-7xl mx-auto px-6">
+                <p class="text-blue-600 font-semibold">
+                    ABOUT KALIAN
+                </p>
 
-            <div class="text-center mb-12">
+                <h1 id="page-title" class="text-4xl md:text-5xl font-bold text-gray-900 mt-3">
+                    Who We Are
+                </h1>
 
-                <h2 class="text-3xl font-bold text-gray-900">
-                    Our Values
-                </h2>
-
-                <p class="text-gray-600 mt-4">
-                    The principles behind our work.
+                <p class="text-gray-600 max-w-2xl mx-auto mt-5">
+                    Learn more about Kalian, our approach, and what we aim to create.
                 </p>
 
             </div>
 
+        </section>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- ABOUT CONTENT -->
+        <section class="py-20 bg-white" aria-labelledby="about-title">
 
-                <div class="bg-white p-6 rounded-xl shadow-sm">
+            <div class="max-w-7xl mx-auto px-6">
 
-                    <div class="text-3xl mb-4">
-                        💡
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                    <div>
+
+                        <h2 id="about-title" class="text-3xl font-bold text-gray-900">
+                            Simple ideas. Better experiences.
+                        </h2>
+
+                        <p class="text-gray-600 mt-6 leading-relaxed">
+                            Kalian focuses on creating simple, modern and reliable
+                            experiences. Our goal is to combine useful technology
+                            with clear and thoughtful design.
+                        </p>
+
+                        <p class="text-gray-600 mt-4 leading-relaxed">
+                            We believe that good digital experiences should be
+                            easy to understand, accessible and enjoyable to use.
+                        </p>
+
                     </div>
 
-                    <h3 class="text-xl font-semibold text-gray-900">
-                        Innovation
-                    </h3>
+                    <article class="bg-gray-100 rounded-xl p-8">
 
-                    <p class="text-gray-600 mt-3">
-                        We explore new ideas and modern technologies.
-                    </p>
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            Our Mission
+                        </h3>
 
-                </div>
+                        <p class="text-gray-600 mt-4">
+                            To create meaningful digital experiences through
+                            simplicity, technology and thoughtful design.
+                        </p>
 
-
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-
-                    <div class="text-3xl mb-4">
-                        🎯
-                    </div>
-
-                    <h3 class="text-xl font-semibold text-gray-900">
-                        Purpose
-                    </h3>
-
-                    <p class="text-gray-600 mt-3">
-                        We focus on creating useful and meaningful solutions.
-                    </p>
-
-                </div>
-
-
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-
-                    <div class="text-3xl mb-4">
-                        🤝
-                    </div>
-
-                    <h3 class="text-xl font-semibold text-gray-900">
-                        Trust
-                    </h3>
-
-                    <p class="text-gray-600 mt-3">
-                        We value clarity, reliability and positive experiences.
-                    </p>
+                    </article>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+        <!-- VALUES -->
+        <section class="py-20 bg-gray-100" aria-labelledby="values-title">
 
+            <div class="max-w-7xl mx-auto px-6">
 
-    <!-- CTA -->
-    <section class="py-20 bg-gray-900 text-white">
+                <div class="text-center mb-12">
 
-        <div class="max-w-4xl mx-auto px-6 text-center">
+                    <h2 id="values-title" class="text-3xl font-bold text-gray-900">
+                        Our Values
+                    </h2>
 
-            <h2 class="text-3xl md:text-4xl font-bold">
-                Want to Learn More?
-            </h2>
+                    <p class="text-gray-600 mt-4">
+                        The principles behind our work.
+                    </p>
 
-            <p class="text-gray-300 mt-4">
-                Get in touch with the Kalian team.
-            </p>
+                </div>
 
-            <a href="contact.html"
-               class="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
-                Contact Us
-            </a>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        </div>
+                    <article class="bg-white p-6 rounded-xl shadow-sm">
 
-    </section>
+                        <div class="text-3xl mb-4" aria-hidden="true">
+                            💡
+                        </div>
 
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            Innovation
+                        </h3>
+
+                        <p class="text-gray-600 mt-3">
+                            We explore new ideas and modern technologies.
+                        </p>
+
+                    </article>
+
+                    <article class="bg-white p-6 rounded-xl shadow-sm">
+
+                        <div class="text-3xl mb-4" aria-hidden="true">
+                            🎯
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            Purpose
+                        </h3>
+
+                        <p class="text-gray-600 mt-3">
+                            We focus on creating useful and meaningful solutions.
+                        </p>
+
+                    </article>
+
+                    <article class="bg-white p-6 rounded-xl shadow-sm">
+
+                        <div class="text-3xl mb-4" aria-hidden="true">
+                            🤝
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            Trust
+                        </h3>
+
+                        <p class="text-gray-600 mt-3">
+                            We value clarity, reliability and positive experiences.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="py-20 bg-gray-900 text-white" aria-labelledby="cta-title">
+
+            <div class="max-w-4xl mx-auto px-6 text-center">
+
+                <h2 id="cta-title" class="text-3xl md:text-4xl font-bold">
+                    Want to Learn More?
+                </h2>
+
+                <p class="text-gray-300 mt-4">
+                    Get in touch with the Kalian team.
+                </p>
+
+                <a href="contact.html"
+                   class="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
 
     <!-- FOOTER -->
     <footer class="bg-gray-950 text-gray-400">
@@ -210,18 +208,19 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                <div>
-                    <h2 class="text-2xl font-bold text-white">
+                <section aria-labelledby="footer-brand">
+
+                    <h2 id="footer-brand" class="text-2xl font-bold text-white">
                         Kalian
                     </h2>
 
                     <p class="mt-4">
                         Simple ideas. Better experiences.
                     </p>
-                </div>
 
+                </section>
 
-                <div>
+                <nav aria-label="Footer navigation">
 
                     <h3 class="text-white font-semibold mb-4">
                         Quick Links
@@ -243,12 +242,11 @@
 
                     </div>
 
-                </div>
+                </nav>
 
+                <section aria-labelledby="footer-account">
 
-                <div>
-
-                    <h3 class="text-white font-semibold mb-4">
+                    <h3 id="footer-account" class="text-white font-semibold mb-4">
                         Account
                     </h3>
 
@@ -264,10 +262,9 @@
 
                     </div>
 
-                </div>
+                </section>
 
             </div>
-
 
             <div class="border-t border-gray-800 mt-10 pt-6 text-center">
 
